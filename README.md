@@ -1,1 +1,1 @@
-# Joash, Zeyi, Jonathan and Zihao 2025 Mn302
+# Joash, Zeyi, Zihao and Jonathan 2025 Mn302
