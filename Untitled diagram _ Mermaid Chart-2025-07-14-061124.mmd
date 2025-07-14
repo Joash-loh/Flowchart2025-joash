@@ -1,0 +1,14 @@
+---
+config:
+      theme: redux
+---
+flowchart LR
+        A(["Start"])-->B[Display question]
+        B --> C["Get user answer"]
+        C --> D{"Is answer correct?"}
+        D --Yes--> E[Update score]
+        D --No--> F[Show correct answer]
+        E --> G{More questions?}
+        F --> G
+        G --Yes-->B
+        G--No--> H[End game]
