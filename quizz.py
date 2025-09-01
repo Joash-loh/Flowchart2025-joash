@@ -127,11 +127,11 @@ def fight_boss():
         answer = int(answer) - 1
         if answer == q['answer']:
             print("✅ Correct! Shanti trembles...")
-            input=("press enter to continue")
+            input("Press enter to continue")
             score += 1
         else:
             print(f"❌ Wrong! Correct answer: {q['options'][q['answer']]}")
-                input=("press enter to continue")
+            input("Press enter to continue")
 
     print(f"\n🏁 Rapid Fire Complete! You got {score}/5 right.")
     if score >= 3:
